@@ -1,16 +1,12 @@
 # PartORG/ds-artificial-neural-networks
 
-[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/github/license/neuefische/ds-artificial-neural-networks)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/neuefische/ds-artificial-neural-networks)](https://github.com/neuefische/ds-artificial-neural-networks/issues)
-[![GitHub forks](https://img.shields.io/github/forks/neuefische/ds-artificial-neural-networks)](https://github.com/neuefische/ds-artificial-neural-networks/network/members)
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)] [![License](https://img.shields.io/github/license/PartORG/ds-artificial-neural-networks)] [![GitHub issues](https://img.shields.io/github/issues/PartORG/ds-artificial-neural-networks)] [![GitHub forks](https://img.shields.io/github/forks/PartORG/ds-artificial-neural-networks)] [![GitHub stars](https://img.shields.io/github/stars/PartORG/ds-artificial-neural-networks)]
 
 # Artificial Neural Networks
 
-Welcome to the `ds-artificial-neural-networks` repository! This project is designed to help you understand and implement artificial neural networks using TensorFlow, Keras, and other relevant libraries. Whether you're a beginner or an experienced practitioner, this guide will provide you with a comprehensive understanding of how to build, train, and deploy neural networks.
+Welcome to the **ds-artificial-neural-networks** repository! This project is designed to help you understand and practice artificial neural networks using TensorFlow, Keras, and other essential libraries. Whether you're a beginner or looking to deepen your understanding, this repository provides a structured learning path.
 
 ## Table of Contents
-
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Technology Stack](#technology-stack)
@@ -27,43 +23,46 @@ Welcome to the `ds-artificial-neural-networks` repository! This project is desig
 
 ## Features
 
-### Dense Neural Networks (DNN)
+### Artificial Neural Networks
+This project covers the basics of artificial neural networks, including dense neural networks (DNN), regularization, model persistence, and convolutional neural networks (CNNs).
 
-This section covers the basics of building and training dense neural networks using TensorFlow and Keras. You'll learn how to implement DNNs for both regression and classification problems.
+### Dense Neural Networks (DNN)
+Learn how to implement DNN for regression and classification problems using TensorFlow & Keras.
 
 ### Regularisation & Model Persistence
-
-Explore techniques to prevent overfitting and underfitting, as well as how to save and load trained models for future use.
+Explore techniques to prevent overfitting and underfitting, as well as methods to save and load models.
 
 ### Convolutions & Transfer Learning
+Dive into convolutional neural networks (CNNs) and learn about transfer learning with pre-trained models.
 
-Dive into convolutional neural networks (CNNs) and learn about transfer learning using pre-trained models from TensorFlow Hub.
+### Bonus: DNN from Scratch
+A bonus section for those interested in building a deep neural network from scratch. This exercise helps you understand the underlying mechanics of training a neural network.
 
 ## How It Works
 
-The project is structured around a series of Jupyter notebooks that guide you through the process of building, training, and deploying neural networks. Each notebook focuses on a specific aspect of neural network development.
+The repository is structured around a series of Jupyter Notebooks, each building upon the previous one. Each day's content covers specific topics and provides practical examples to help you understand and apply artificial neural networks.
 
 ## Technology Stack
 
 | Technology | Purpose |
 |------------|---------|
-| **TensorFlow** | A powerful library for machine learning and deep learning. |
-| **Keras** | A high-level API built on top of TensorFlow, designed to make building and training models easier. |
-| **Jupyter Notebook** | An interactive computing environment that allows you to create and share documents containing live code, equations, visualizations, and narrative text. |
-| **Matplotlib** | A plotting library for creating static, animated, and interactive visualizations in Python. |
-| **Pandas** | A data manipulation and analysis library that provides data structures and functions needed to manipulate structured data. |
-| **NumPy** | A fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. |
-| **Seaborn** | A statistical data visualization library based on Matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. |
-| **Statsmodels** | A Python module that allows users to explore data, estimate statistical models, and perform statistical tests. |
-| **Scikit-learn** | A simple and efficient tool for predictive data analysis built on NumPy, SciPy, and matplotlib. |
-| **Pydot** | A Python interface to Graphviz's Dot language, which is used for drawing graphs visually. |
-| **Protobuf** | Google's protocol buffer library, used for serializing structured data. |
-| **TensorFlow-Hub** | A repository of reusable machine learning modules, including pre-trained models and components that can be easily integrated into your projects. |
-| **TensorFlow-Docs** | A set of tools to help you document TensorFlow code.
+| TensorFlow | A powerful library for machine learning and deep learning. |
+| Keras | A high-level neural networks API, written in Python and capable of running on top of TensorFlow. |
+| Jupyter Notebook | An open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. |
+| Matplotlib | A plotting library for creating static, interactive, and animated visualizations in Python. |
+| Pandas | A data manipulation and analysis library in Python. |
+| NumPy | A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. |
+| Seaborn | A Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. |
+| Statsmodels | A Python module that allows users to explore data, estimate statistical models, and perform statistical tests. |
+| Scikit-learn | A simple and efficient tool for predictive data analysis built on NumPy, SciPy, and matplotlib. |
+| Pydot | A Python interface to Graphviz's Dot language. |
+| Protobuf | Google's protocol buffer library. |
+| TensorFlow-Hub | An open platform for sharing machine learning modules. |
+| TensorFlow-Docs | Documentation tools for TensorFlow.
 
 ## Requirements
 
-To run this project, you will need the following:
+To run this project, you need the following:
 
 - Python 3.11
 - Jupyter Notebook
@@ -138,17 +137,11 @@ No specific configuration is required for this project.
 
 ## Quick Start
 
-To get started, simply open the Jupyter notebooks in the `day_1`, `day_2`, and `day_3` directories. Follow the instructions provided in each notebook to build and train your neural networks.
+To get started, open the Jupyter Notebooks in the `day_1`, `day_2`, and `day_3` directories. Each notebook provides a step-by-step guide to learning and practicing artificial neural networks.
 
 ## Usage
 
-You can run the Jupyter notebooks directly from your local environment or use a cloud-based Jupyter service like Google Colab.
-
-### Example Commands
-
-```bash
-jupyter notebook day_1/01_Regression_TensorFlow_Keras.ipynb
-```
+Run the Jupyter Notebooks to explore and experiment with different aspects of artificial neural networks. You can also modify the notebooks to suit your needs or extend them with additional functionality.
 
 ## Project Structure
 
@@ -234,17 +227,17 @@ ds-artificial-neural-networks/
 
 ## Development
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+This project is open-source and contributions are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 ## Testing
 
-This project does not include automated tests at this time. However, you can manually test the notebooks to ensure they work as expected.
+No tests exist for this project at the moment.
 
 ## Limitations
 
-- This project is designed for educational purposes and may not be suitable for production use.
-- Some features may require additional setup or configuration depending on your environment.
+- This repository assumes basic knowledge of Python and machine learning concepts.
+- The notebooks provide practical examples but may not cover all edge cases.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
